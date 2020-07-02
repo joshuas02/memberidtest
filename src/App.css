@@ -1,0 +1,115 @@
+body{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+.container{
+  width: 1000px;
+	height: 600px;
+
+	margin: 20px auto;	
+}
+
+input{
+  border: none;
+  text-align: right;
+  width: 294px;
+  margin-top: 60px;
+  margin-right: 15px;
+  font-size: 40px;
+}
+
+.new{
+  font: bold;
+}
+
+.dr {
+  width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.history {
+  
+  text-align: right;
+	height: 20px;
+	margin-right: 15px;
+	padding-top: 20px;
+	font-size: 25px;
+	color: #919191;
+}
+
+.clear{
+  width: 50px;
+  height: 50px;
+  margin-left:15px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.operator{
+	width: 50px;
+  height: 50px;
+  margin-left:15px;
+	margin: 15px;
+	float: right;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.number {
+  width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.operator{
+  background-color: rosybrown;
+}
+
+.number{
+	background-color: #ffffff;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus {
+	outline: 0;
+}
+button:nth-child(1){
+	font-size: 20px;
+	background-color: rgb(222, 243, 244);
+}
+button:nth-child(2){
+	font-size: 20px;
+	background-color: rgb(222, 243, 244);
+}
+button:nth-child(3){
+	font-size: 20px;
+	background-color: rgb(222, 243, 244);
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: rgb(222, 243, 244);
+}
+
+button:nth-child(5){
+	font-size: 20px;
+	background-color: rgb(222, 243, 244);
+}
